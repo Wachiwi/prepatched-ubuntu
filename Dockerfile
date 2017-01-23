@@ -1,4 +1,4 @@
-FROM ubuntu.14.04
+FROM ubuntu:14.04
 
 RUN apt-get update > /dev/null && \
     apt-get upgrade -y > /dev/null && \
